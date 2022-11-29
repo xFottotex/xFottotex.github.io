@@ -1,0 +1,113 @@
+:root {
+    --dark: #1b1b1b;
+    --darker: #161616;
+    --darkest: #0f0f0f;
+    --darkester: #0a0a0a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--dark);
+    color: #fff;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 44%;
+    height: 66%;
+    background: rgba(0, 0, 0, 0.50);
+    padding: 15px 50px;
+    border-radius: 4px;
+    position: relative;
+    backdrop-filter: blur(8px);
+}
+
+.header {
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.article {
+    position: relative;
+    padding: 20px 0px;
+    text-align: center;
+    align-content: center;
+}
+
+p {
+    font-size: 26px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    padding: 20px 0px;
+}
+
+a {
+    opacity: 0.75;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 1.0;
+}
+
+.bg_image {
+    position: absolute;
+}
+
+.bg_image--lol {
+    top: 10%;
+    right: 60%;
+    height: 30vh;
+    animation: slideRight1 10s linear infinite;
+}
+
+.bg_image--tr {
+    top: 35%;
+    right: 60%;
+    height: 30vh;
+    animation: slideRight1 25s linear infinite;
+}
+
+.bg_image--ets {
+    top: 67%;
+    right: 60%;
+    height: 20vh;
+    animation: slideRight1 8s linear infinite;
+}
+
+.bg_image--cc {
+    top: 58%;
+    right: 60%;
+    height: 10vh;
+    animation: slideRight1 30s linear infinite;
+}
+
+@keyframes slideRight1 {
+    from {transform: translateX(-50vw)}
+    to {transform: translateX(100vw)}
+}
