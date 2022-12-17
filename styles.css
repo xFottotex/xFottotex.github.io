@@ -1,19 +1,27 @@
 body {
     background-color: cornflowerblue;
+    align
     width: 100vw;
     height: 100vh;
+}
+
+.bg {
+    position: absolute;
+}
+
+.bg_konata {
+    bottom: 0px;
+    left: 0px;
 }
 
 .container {
     position: relative;
 }
 
-.bg {
-    position: relative;
+.section {
+
 }
 
-.bg_konata {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
+.footer {
+
 }
