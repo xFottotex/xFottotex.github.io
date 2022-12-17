@@ -1,10 +1,7 @@
 body {
     background-color: cornflowerblue;
-    align-items: center;
     width: 100vw;
     height: 100vh;
-    display: flex;
-    overflow: hidden;
 }
 
 .container {
