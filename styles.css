@@ -9,8 +9,9 @@ body {
 }
 
 .bg_konata {
-    bottom: 0px;
-    left: 0px;
+    background: url(assets/images/Konata.png);
+    background-size: 512px 512px;
+    background-repeat: no-repeat;
 }
 
 .container {
