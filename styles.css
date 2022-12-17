@@ -9,10 +9,11 @@ body {
 }
 
 .bg {
-    position: absolute;
+    position: relative;
 }
 
 .bg_konata {
+    position: absolute;
     bottom: 0px;
     left: 0px;
 }
