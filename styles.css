@@ -39,7 +39,7 @@ body {
     border-radius: 5px;
     position: flex;
     backdrop-filter: blur(8px);
-
+    align-content: center;
 
 }
 
