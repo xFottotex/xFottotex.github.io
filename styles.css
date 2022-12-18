@@ -49,6 +49,15 @@ body {
     animation: rotate 5s ease-in-out infinite;
 }
 
+.nav {
+    position: absolute;
+    text-align: center;
+    color: deepskyblue;
+    width: 30%;
+    padding: 32px;
+    left: 0;
+}
+
 .section {
 
 }
