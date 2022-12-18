@@ -57,6 +57,7 @@ body {
 }
 
 .nav {
+    position: absolute;
     color: deepskyblue;
     text-shadow: 2px 2px 5px white;
     width: 40%;
@@ -64,6 +65,7 @@ body {
 }
 
 .section {
+    position: absolute;
     width: 50%;
     height: 50%;
     align-content: center;
