@@ -58,8 +58,8 @@ body {
 
 .nav {
     position: relative;
-    text-shadow: 2px 2px 5px white;
     width: 40%;
+    letter-spacing: 2px;
 }
 
 .section {
@@ -95,10 +95,10 @@ body {
 }
 
 a:link {
-    color: cornflowerblue;
+    color: white;
     background-color: transparent;
     text-decoration: none;
-    font-size: medium;
+    font-size: 24px;
 }
 
 @keyframes rotate {
