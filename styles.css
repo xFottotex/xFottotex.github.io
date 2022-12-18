@@ -58,9 +58,6 @@ body {
 
 .nav {
     position: relative;
-    color: white;
-    font-weight: 50;
-    font-size: medium;
     text-shadow: 2px 2px 5px white;
     width: 40%;
 }
@@ -95,6 +92,12 @@ body {
     padding: 32px;
     left: 0;
     bottom: 0;
+}
+
+a: link {
+    color: cornflowerblue;
+    font-weight: 50;
+    font-size: medium;
 }
 
 @keyframes rotate {
