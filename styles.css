@@ -61,8 +61,6 @@ body {
 
 .section {
     position: absolute;
-    top: 50%;
-    bottom: 50%;
     right: 0;
     width: 50%;
     height: 50%;
