@@ -15,11 +15,13 @@ body {
 }
 
 .bg {
-    
+    position: absolute;
 }
 
 .bg_konata {
-    
+    left: 90%;
+    top: 50%;
+    width: 50%;
 }
 
 .container {
