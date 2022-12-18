@@ -10,8 +10,6 @@
 }
 
 body {
-    background-color: cornflowerblue;
-    background-image: linear-gradient(to right, var(--cornflowerblue), var(--pink));
     background-image: url(/assets/images/MuriGotouHitori.gif);
     background-size: cover;
     background-repeat: no-repeat;
@@ -53,6 +51,7 @@ body {
     position: absolute;
     text-align: center;
     color: deepskyblue;
+    text-shadow: 2px 2px 5px white;
     width: 30%;
     padding: 32px;
     top: 50%;
@@ -72,7 +71,6 @@ body {
   }
 
   .video iframe {
-    position: absolute;
     width: 100%;
     height: 100%;
   }
