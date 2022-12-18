@@ -61,7 +61,7 @@ body {
     position: relative;
     text-align: center;
     width: 100%;
-    line-height: 16px;
+    line-height: 24px;
 }
 
 .section {
@@ -102,6 +102,12 @@ a:link, a:visited {
     text-decoration: none;
     font-size: 18px;
 }
+
+a:hover {
+    color: cornflowerblue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
 
 @keyframes rotate {
     from {transform: rotate(0deg)}
