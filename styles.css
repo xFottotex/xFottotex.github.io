@@ -60,11 +60,13 @@ body {
     color: deepskyblue;
     text-shadow: 2px 2px 5px white;
     width: 40%;
+    align-content: center;
 }
 
 .section {
     width: 50%;
     height: 50%;
+    align-content: center;
 }
 
 .video {
