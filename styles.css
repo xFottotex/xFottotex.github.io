@@ -38,6 +38,7 @@ body {
     padding: 32px;
     border-radius: 5px;
     position: flex;
+    flex-direction: column;
     backdrop-filter: blur(8px);
 }
 
