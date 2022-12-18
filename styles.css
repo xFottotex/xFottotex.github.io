@@ -53,6 +53,7 @@ body {
     align-items: center;
     align-content: center;
     flex-direction: column;
+    padding-top: 64px;
 }
 
 .nav {
