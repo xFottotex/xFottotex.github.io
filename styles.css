@@ -54,18 +54,15 @@ body {
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    align-self: center;
 }
 
 .nav {
     color: deepskyblue;
     text-shadow: 2px 2px 5px white;
-    left: 0;
     width: 40%;
 }
 
 .section {
-    right: 0;
     width: 50%;
     height: 50%;
 }
