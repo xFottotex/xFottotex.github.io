@@ -37,10 +37,11 @@ body {
     background: rgba(0, 0, 0, 0.5);
     padding: 32px;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
     position: flex;
-    flex-direction: column;
+    flex-direction: row;
     backdrop-filter: blur(8px);
 }
 
@@ -60,7 +61,6 @@ body {
 }
 
 .section {
-    position: absolute;
     right: 0;
     width: 50%;
     height: 50%;
