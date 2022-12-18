@@ -58,7 +58,9 @@ body {
 
 .nav {
     position: relative;
-    color: deepskyblue;
+    color: white;
+    font-weight: 50;
+    font-size: medium;
     text-shadow: 2px 2px 5px white;
     width: 40%;
 }
@@ -66,7 +68,6 @@ body {
 .section {
     position: relative;
     padding-top: 32px;
-    font-size: medium;
     width: 100%;
     height: 100%;
 }
