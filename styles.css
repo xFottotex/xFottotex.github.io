@@ -55,6 +55,7 @@ body {
     justify-content: center;
     align-items: center;
     align-content: space-between;
+    top: 50vh;
 }
 
 .nav {
@@ -74,6 +75,7 @@ body {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     height: 0;
+    right: 0;
   }
 
   .video iframe {
