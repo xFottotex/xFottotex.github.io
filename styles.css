@@ -19,6 +19,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .bg {
@@ -60,7 +61,7 @@ body {
     position: relative;
     text-align: center;
     width: 100%;
-    letter-spacing: 4px;
+    line-height: 2px;
 }
 
 .section {
