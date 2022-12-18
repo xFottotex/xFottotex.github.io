@@ -19,9 +19,8 @@ body {
 }
 
 .bg_konata {
-    left: 90%;
-    top: 50%;
-    width: 50%;
+    left: 0;
+    top: 0;
 }
 
 .container {
@@ -32,6 +31,10 @@ body {
     border-radius: 20px;
     position: relative;
     backdrop-filter: blur(8px);
+}
+
+.header {
+    text-align: center;
 }
 
 .section {
