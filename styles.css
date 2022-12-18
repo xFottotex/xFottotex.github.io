@@ -11,7 +11,7 @@
 
 body {
     background-color: cornflowerblue;
-    background: linear-gradient(to right, var(--cornflowerblue), var(--pink));
+    background-image: linear-gradient(to right, var(--cornflowerblue), var(--pink));
     width: 100vw;
     height: 100vh;
     display: flex;
