@@ -25,15 +25,14 @@ body {
 }
 
 .bg_konata {
-    bottom: 8px;
-    left: 16px;
+    background-position: bottom left;
 }
 
 .container {
-    width: 66%;
-    height: 66%;
+    width: 40%;
+    height: 80%;
     background: rgba(0, 0, 0, 0.50);
-    padding: 32px 92px;
+    padding: 32px;
     border-radius: 20px;
     position: relative;
     backdrop-filter: blur(8px);
