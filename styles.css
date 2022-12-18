@@ -57,6 +57,7 @@ body {
 }
 
 .section {
+    position: relative;
     top: 50%;
     right: 0;
     width: 50%;
@@ -64,15 +65,12 @@ body {
 }
 
 .video {
-    position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     height: 0;
   }
 
   .video iframe {
     position: absolute;
-    top: 50%;
-    right: 0;
     width: 50%;
     height: 50%;
   }
