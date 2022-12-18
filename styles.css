@@ -28,6 +28,7 @@ body {
 }
 
 .bg_konata {
+    position: absolute;
     bottom: 0;
     left: 0;
 }
@@ -54,4 +55,5 @@ body {
 .footer {
     text-align: center;
     color: white;
+    bottom: 0;
 }
