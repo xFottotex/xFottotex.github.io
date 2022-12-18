@@ -37,6 +37,8 @@ body {
     background: rgba(0, 0, 0, 0.5);
     padding: 32px;
     border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
     position: flex;
     flex-direction: column;
     backdrop-filter: blur(8px);
