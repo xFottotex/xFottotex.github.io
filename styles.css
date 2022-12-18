@@ -53,6 +53,7 @@ body {
 }
 
 .footer {
+    position: fixed;
     text-align: center;
     color: white;
     bottom: 0;
