@@ -13,6 +13,7 @@ body {
     background-color: cornflowerblue;
     background-image: linear-gradient(to right, var(--cornflowerblue), var(--pink));
     background-image: url(/assets/images/MuriGotouHitori.gif);
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
