@@ -94,9 +94,10 @@ body {
     bottom: 0;
 }
 
-a: link {
+a:link {
     color: cornflowerblue;
-    font-weight: 50;
+    background-color: transparent;
+    text-decoration: none;
     font-size: medium;
 }
 
