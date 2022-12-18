@@ -37,24 +37,17 @@ body {
     background: rgba(0, 0, 0, 0.5);
     padding: 32px;
     border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: flex;
-    flex-direction: row;
     backdrop-filter: blur(8px);
 }
 
 .header {
-    position: fixed;
     text-align: center;
     color: white;
     animation: rotate 5s ease-in-out infinite;
 }
 
 .nav {
-    position: absolute;
-    text-align: center;
     color: deepskyblue;
     text-shadow: 2px 2px 5px white;
     left: 0;
@@ -87,7 +80,6 @@ body {
     color: rgba(255, 255, 255, 0.1);
     width: 100%;
     padding: 32px;
-    left: 0;
     bottom: 0;
 }
 
