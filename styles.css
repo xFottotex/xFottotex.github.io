@@ -28,10 +28,8 @@ body {
 }
 
 .bg_konata {
-    background-image: url(/assets/images/Konata.png);
-    background-size: 512px 512px;
-    background-position: bottom left;
-    background-repeat: no-repeat;
+    bottom: 0;
+    left: 0;
 }
 
 .container {
