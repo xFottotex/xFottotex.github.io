@@ -53,8 +53,8 @@ body {
     color: deepskyblue;
     text-shadow: 2px 2px 5px white;
     top: 50%;
+    bottom: 50%;
     width: 40%;
-    padding: 32px;
 }
 
 .section {
