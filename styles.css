@@ -39,12 +39,20 @@ body {
     border-radius: 5px;
     position: flex;
     backdrop-filter: blur(8px);
+
+
 }
 
 .header {
     text-align: center;
     color: white;
     animation: rotate 5s ease-in-out infinite;
+}
+
+.secnav {
+    display: flex;
+    flex-direction: row;
+    
 }
 
 .nav {
@@ -75,7 +83,6 @@ body {
   }
 
 .footer {
-    position: fixed;
     text-align: center;
     color: rgba(255, 255, 255, 0.1);
     width: 100%;
