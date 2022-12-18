@@ -46,7 +46,7 @@ body {
 }
 
 .header {
-    position: absolute;
+    position: fixed;
     text-align: center;
     color: white;
     animation: rotate 5s ease-in-out infinite;
