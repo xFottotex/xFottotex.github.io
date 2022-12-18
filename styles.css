@@ -19,8 +19,8 @@ body {
 }
 
 .bg_konata {
-    left: 0;
-    top: 0;
+    bottom: 8px;
+    left: 16px;
 }
 
 .container {
