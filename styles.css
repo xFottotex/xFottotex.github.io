@@ -39,8 +39,6 @@ body {
     border-radius: 5px;
     position: flex;
     backdrop-filter: blur(8px);
-    align-content: center;
-
 }
 
 .header {
@@ -54,6 +52,7 @@ body {
     justify-content: space-between;
     align-items: center;
     align-content: center;
+    flex-direction: column;
 }
 
 .nav {
@@ -61,14 +60,12 @@ body {
     color: deepskyblue;
     text-shadow: 2px 2px 5px white;
     width: 40%;
-    align-content: center;
 }
 
 .section {
     position: relative;
     width: 50%;
     height: 50%;
-    align-content: center;
 }
 
 .video {
