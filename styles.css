@@ -51,11 +51,9 @@ body {
 
 .secnav {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    align-content: space-between;
-    top: 40%;
+    align-content: center;
 }
 
 .nav {
