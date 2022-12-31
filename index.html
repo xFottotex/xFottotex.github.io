@@ -7,8 +7,15 @@
     <title>Fottotex</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <audio src="assets/sounds/HEYYEYAAEYAAAEYAEYAA.mp3" autoplay></audio>
+<script>
+    window.onload = () => {
+        window.addEventListener("click", () => {
+            document.querySelector("audio").play();
+        });
+    };
+</script>
+<audio src="assets/sounds/HEYYEYAAEYAAAEYAEYAA.mp3" autoplay></audio>
+<body>   
     <div class="bg">
         <img src="/assets/images/Konata.png" class="bg_konata" width="256" height="256">
     </div>
