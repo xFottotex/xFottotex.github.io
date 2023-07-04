@@ -59,6 +59,12 @@ video {
     text-align: center;
     width: 100%;
     line-height: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .section {
