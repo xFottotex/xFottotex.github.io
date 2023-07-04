@@ -22,13 +22,29 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-video {
+
+
+.bg-video {
     position: absolute;
     right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-  }
+    left: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .bg-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .bg-video {
+        width: auto;
+        height: 100%;
+    }
+}
+
 
 .container {
     position: absolute;
