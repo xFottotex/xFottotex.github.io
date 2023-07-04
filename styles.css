@@ -55,7 +55,7 @@ video {
 }
 
 .nav {
-    position: flex;
+    position: relative;
     text-align: center;
     width: 100%;
     line-height: 24px;
