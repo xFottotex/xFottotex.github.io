@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url(/assets/images/MuriGotouHitori.gif);
+    background-image: url(/assets/img/hutao.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
@@ -22,14 +22,29 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .video-wrapper {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 .bg {
     
-}
-
-.bg_konata {
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 
 .container {
