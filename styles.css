@@ -30,6 +30,17 @@ video {
     left: 0;
   }
 
+.video-wrapper {
+    position: absolute;
+    width: 1080px;
+    height: 1920px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 .container {
     position: absolute;
     width: 40%;
