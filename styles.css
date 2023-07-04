@@ -28,17 +28,6 @@ video {
     left: 0;
   }
 
-  .video-wrapper {
-    position: relative;
-    width: 400px;
-    height: 200px;
-    overflow: hidden;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
 .bg {
     
 }
