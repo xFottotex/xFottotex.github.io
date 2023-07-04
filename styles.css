@@ -32,7 +32,7 @@ video {
 
 .video-wrapper {
     position: absolute;
-    width: 100%;
+    width: auto;
     height: auto;
     overflow: hidden;
     display: flex;
@@ -62,7 +62,7 @@ video {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
 }
