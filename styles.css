@@ -34,8 +34,7 @@ video {
     position: absolute;
     width: auto;
     height: auto;
-    overflow: hidden;
-    display: flex;
+
   }
 
 .container {
