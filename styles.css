@@ -136,6 +136,6 @@ a:hover {
     position: relative;
     top: 0px;
     left: 0px;
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABPUlEQVRIie2UO27CQBRFz3NcWvwqKGJ3ERugJV22Ez5WhJQaiSREygKAsI50oKTIFtLFEp8KA3I54BS2IhAS2MERDaeZGenNvU9PMxfOnBrZPAwL5hVwA+SAC2AVrmzsV3v0ZsBbeeJ8bRkM8peaiDQBG9CPbFoBbXzuy1NnrQGIyB3QSECcUKOBYAPIsGAawDfBWJJk5uNbGj7FQ+JWvYqeTsc1yAlS1BCMQ5VmvULp8x3LrqFnM3FMDC1qpZ5KYdZuKX0MsOwqejYb6V5kg1+jTAazVgmMIowutkHshuJeUPM5416fUbePct3kDNRyybjzyqjbQ7nzyA3p+HjbgbGL8/zCqNNDLRaRhUM8GeZNA/mvj4allaeOBzwlLA7wcD1xvOAV+TwCLYKgOhYFtNZIG/bH9V/Yieszp+cHx6xbu0LmPEwAAAAASUVORK5CYII=") no-repeat left center transparent;
+    background: url(/assets/img/youtube.png) no-repeat left center transparent;
     background-size: 100% 100%;
 }
