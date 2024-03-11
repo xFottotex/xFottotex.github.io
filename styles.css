@@ -103,3 +103,51 @@ a:hover {
     background-color: transparent;
     text-decoration: underline;
   }
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #a12727;
+    border-radius: 8px;
+    background: #ff4a4a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff4a4a), to(#992727));
+    background: -moz-linear-gradient(top, #ff4a4a, #992727);
+    background: linear-gradient(to bottom, #ff4a4a, #992727);
+    -webkit-box-shadow: #ff5959 0px 0px 40px 0px;
+    -moz-box-shadow: #ff5959 0px 0px 40px 0px;
+    box-shadow: #ff5959 0px 0px 40px 0px;
+    text-shadow: #591717 1px 1px 1px;
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    background: #ff5959;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff5959), to(#b62f2f));
+    background: -moz-linear-gradient(top, #ff5959, #b62f2f);
+    background: linear-gradient(to bottom, #ff5959, #b62f2f);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #982727;
+    background: -webkit-gradient(linear, left top, left bottom, from(#982727), to(#982727));
+    background: -moz-linear-gradient(top, #982727, #982727);
+    background: linear-gradient(to bottom, #982727, #982727);
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABPUlEQVRIie2UO27CQBRFz3NcWvwqKGJ3ERugJV22Ez5WhJQaiSREygKAsI50oKTIFtLFEp8KA3I54BS2IhAS2MERDaeZGenNvU9PMxfOnBrZPAwL5hVwA+SAC2AVrmzsV3v0ZsBbeeJ8bRkM8peaiDQBG9CPbFoBbXzuy1NnrQGIyB3QSECcUKOBYAPIsGAawDfBWJJk5uNbGj7FQ+JWvYqeTsc1yAlS1BCMQ5VmvULp8x3LrqFnM3FMDC1qpZ5KYdZuKX0MsOwqejYb6V5kg1+jTAazVgmMIowutkHshuJeUPM5416fUbePct3kDNRyybjzyqjbQ7nzyA3p+HjbgbGL8/zCqNNDLRaRhUM8GeZNA/mvj4allaeOBzwlLA7wcD1xvOAV+TwCLYKgOhYFtNZIG/bH9V/Yieszp+cHx6xbu0LmPEwAAAAASUVORK5CYII=") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
