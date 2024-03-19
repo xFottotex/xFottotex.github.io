@@ -191,3 +191,199 @@ a:hover {
     background: url("/assets/img/ttv.png") no-repeat left center transparent;
     background-size: 100% 100%;
 }
+
+.button_twitter {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #255e8f;
+    border-radius: 8px;
+    background: #3c98e9;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3c98e9), to(#255e8f));
+    background: -moz-linear-gradient(top, #3c98e9, #255e8f);
+    background: linear-gradient(to bottom, #3c98e9, #255e8f);
+    -webkit-box-shadow: #378cd7 0px 0px 40px 0px;
+    -moz-box-shadow: #378cd7 0px 0px 40px 0px;
+    box-shadow: #378cd7 0px 0px 40px 0px;
+    text-shadow: #173b5a 1px 1px 1px;
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button_twitter:hover,
+.button_twitter:focus {
+    border: 1px solid #2e75b3;
+    background: #48b6ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#48b6ff), to(#2c71ac));
+    background: -moz-linear-gradient(top, #48b6ff, #2c71ac);
+    background: linear-gradient(to bottom, #48b6ff, #2c71ac);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button_twitter:active {
+    background: #255e8f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#255e8f), to(#255e8f));
+    background: -moz-linear-gradient(top, #255e8f, #255e8f);
+    background: linear-gradient(to bottom, #255e8f, #255e8f);
+}
+.button_twitter:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACAElEQVRIib2VvWsUQRjGfzO7e9ms3hFy0YSQpLOJKNFAIApaRG38ByzkSiuxvcImncTCwsYmRZLGgCgiYmwsUkeCqAQkJHDBD5Bc2MsZvL39GIvLqdzO3l3kzqfcd+b5zfvMy44YXSw5IOaAHJChM9oHFlDkzUPz2x0yrisD3EGABG522Pxv5STQ10VAn+yiOVCL6J+UtgS20Xqdqft4JmvwsRiiNLXhY4IHF3uZHjIIIni65fNky+f8CYP5jSphwyZtB/enbe5O9mA2VAXw6HIvF4YMBGBJuHHKYvmaQ9YWDDpxOy1ACLh1OsXyVYez2T85jKUl5wbiuZgSfviKbwdRvKYDPN/2GZ/sYWrQ4OV1h3e7IatfQ34GutCgEigevq9qa1pAvy0oVhRZWwAwMWAwoTl5XcWKHgwJEaUt8du8HX3Yi0fTFDC37vH2e9g2YKUQHA3gVhWvdgL2mrReV6Ec8XrHPxoAYPVLQDW5cwAiBbNrHpUmzSYCNksRMy8OmN/QT4dScG/d483n5HhAM0WZlGC8XzJ2XDIzYnJlJD5orqeYXfN4tp0cTSKg7CskcGnYZOqkgXXYox/BJzdkpRDweNNnt437ARCji/tNV6YtQcqAUlURtLiTtjpoVNlX0DqJRP2X98Dtor8rgaUuApZMFHlqv50cnXufXWoHz/8CNSybhDmkLToAAAAASUVORK5CYII=") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+
+.button_dsc {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #001d40;
+    border-radius: 8px;
+    background: #0050b2;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0050b2), to(#001d40));
+    background: -moz-linear-gradient(top, #0050b2, #001d40);
+    background: linear-gradient(to bottom, #0050b2, #001d40);
+    -webkit-box-shadow: #0060d6 0px 0px 40px 0px;
+    -moz-box-shadow: #0060d6 0px 0px 40px 0px;
+    box-shadow: #0060d6 0px 0px 40px 0px;
+    text-shadow: #001024 1px 1px 1px;
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button_dsc:hover,
+.button_dsc:focus {
+    border: 1px solid #002047;
+    background: #0060d6;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0060d6), to(#00234d));
+    background: -moz-linear-gradient(top, #0060d6, #00234d);
+    background: linear-gradient(to bottom, #0060d6, #00234d);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button_dsc:active {
+    background: #001d40;
+    background: -webkit-gradient(linear, left top, left bottom, from(#001d40), to(#001d40));
+    background: -moz-linear-gradient(top, #001d40, #001d40);
+    background: linear-gradient(to bottom, #001d40, #001d40);
+}
+.button_dsc:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABx0lEQVRIib3VT0tUYRTH8c8zikS0aCWziIz+IUFUEL2AEF9FtPB6iza18DW0DFctmnF8CxEEQUSEoLSKCCqRiIghIqRahIjknBYz0nCdO+qY/VbPPefc35fnPs85lwNWKgbyLCqJQwO5DVmv1VKrFJBnMYEHqA4E4Ctu1hvp2VZguFDQwPEBzeFkx2NsK1ApFOzHvKdHEfDPtVvAN3zvev6JL2j1Lv+r4hkU9QGz2oc33AG1MCpsSA5jBpcHBeTB0lwjbfRMTsWI5BXelnn1+0TvEgtl5lCfTxv1RlrB87Kafjt4XGu0mybPYhxVFS9SqESYDD7NNdJyp/YhJvcKWOxaP8JpLWeifdefJD7iFAhL22fCzoDlrvV9nEcTv/EGC135lTKTckC0r2U+FWeFWn0+rXcyn3HhxnRUprM4FyynIeux6ReO7B6Q3MuzuCU0JbfzLC7hfWcHYxFWU5hFJTbd7WXeH8B1TEqe4grGC/mmpJq4ihNlJjv1QbUD6qVjmNrh/f8/i1YH8Hipz0wqAmawtkfAa9wpg2xrj+ksjiZGI3bnnlirz6dmnsU17Z/NSL2RStpun8qzmMiz+HEg5l2QiwcKKOoPI7iC5QSAMzUAAAAASUVORK5CYII=") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+
+.button_osu {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #8f008f;
+    border-radius: 8px;
+    background: #ff00ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff00ff), to(#8f008f));
+    background: -moz-linear-gradient(top, #ff00ff, #8f008f);
+    background: linear-gradient(to bottom, #ff00ff, #8f008f);
+    -webkit-box-shadow: #ff00ff 0px 0px 40px 0px;
+    -moz-box-shadow: #ff00ff 0px 0px 40px 0px;
+    box-shadow: #ff00ff 0px 0px 40px 0px;
+    text-shadow: #540054 1px 1px 1px;
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button_osu:hover,
+.button_osu:focus {
+    border: 1px solid #a800a8;
+    background: #ff00ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff00ff), to(#ac00ac));
+    background: -moz-linear-gradient(top, #ff00ff, #ac00ac);
+    background: linear-gradient(to bottom, #ff00ff, #ac00ac);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #8f008f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8f008f), to(#8f008f));
+    background: -moz-linear-gradient(top, #8f008f, #8f008f);
+    background: linear-gradient(to bottom, #8f008f, #8f008f);
+}
+.button_osu:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("/assets/img/osu.png") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+
+.button_lol {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #5e3000;
+    border-radius: 8px;
+    background: #b05b00;
+    background: -webkit-gradient(linear, left top, left bottom, from(#b05b00), to(#5e3000));
+    background: -moz-linear-gradient(top, #b05b00, #5e3000);
+    background: linear-gradient(to bottom, #b05b00, #5e3000);
+    -webkit-box-shadow: #d36d00 0px 0px 40px 0px;
+    -moz-box-shadow: #d36d00 0px 0px 40px 0px;
+    box-shadow: #d36d00 0px 0px 40px 0px;
+    text-shadow: #371d00 1px 1px 1px;
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button_lol:hover,
+.button_lol:focus {
+    border: 1px solid #6e3900;
+    background: #d36d00;
+    background: -webkit-gradient(linear, left top, left bottom, from(#d36d00), to(#713a00));
+    background: -moz-linear-gradient(top, #d36d00, #713a00);
+    background: linear-gradient(to bottom, #d36d00, #713a00);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button_lol:active {
+    background: #5e3000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#5e3000), to(#5e3000));
+    background: -moz-linear-gradient(top, #5e3000, #5e3000);
+    background: linear-gradient(to bottom, #5e3000, #5e3000);
+}
+.button_lol:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("/assets/img/lol.png") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
