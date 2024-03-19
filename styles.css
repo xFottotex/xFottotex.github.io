@@ -59,7 +59,9 @@ video {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    align-content: center;
+    align-content: flex-start;
+    order: 3;
+    gap: 10px 20px;
 }
 
 .section {
